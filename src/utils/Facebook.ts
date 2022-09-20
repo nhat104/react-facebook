@@ -13,8 +13,6 @@ export type LoginResponse = {
   status: Exclude<LoginStatus, LoginStatus.CONNECTED>,
 };
 
-console.log("123")
-
 export type LoginOptions = {
   scope?: string;
   returnScopes?: boolean;
